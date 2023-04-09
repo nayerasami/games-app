@@ -1,0 +1,158 @@
+body{
+    font-family:  "Comfortaa", cursive;
+  
+    background-color: #272b30;
+  
+}
+header img{
+    max-height: 30vh;
+    object-fit: cover;
+}
+nav{
+    width: 70%;
+     position:absolute;
+    top: 0px; 
+     left: 50%; 
+    z-index: 99999;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+ background-color: #3a497b;
+ font-family: 'Nerko One', cursive;
+ font-weight: 10;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+nav a span{
+    color: white;
+    font-size: 28px;
+ 
+}
+nav a img {
+    max-width: 40px;
+
+}
+
+.home{
+    max-width: 1250px;
+    margin: auto;
+}
+.card{
+    background-color: transparent;
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+    box-shadow: rgba(67, 67, 67, 0.2) 0px 2px 8px 0px;
+    transition: transform 0.5s, filter 0.5s 0.1s;
+    cursor: pointer;
+    overflow: hidden;
+
+}
+.card-body{
+    height: 120px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+#closeBtn{
+    cursor: pointer;
+}
+.game-name{
+    font-size: 1.75rem;
+    font-style: normal;
+    font-family: 'Nerko One', cursive;
+}
+#navbarNavDropdown ul li a {
+    color: white;
+}
+
+#navbarNavDropdown ul li a:hover,
+#navbarNavDropdown ul li a .active
+{
+    color: #098cbf !important; 
+}
+.card-footer{
+    max-height: 24px;
+    font-size: 10px;
+}
+.type{
+    text-align:center;
+    background-color:#363739;
+   height: 19px;
+   width: 60px;
+   border-radius: 5px;
+   vertical-align: middle;
+    font-weight: bold;
+}
+.card-image{
+    border-radius: 5px;
+}
+.device{
+    text-align:center;
+    background-color: #363739;
+   height: 20px;
+   width: 90px;
+   border-radius: 5px;
+   font-weight: bold;
+   vertical-align: middle;
+}
+.free-button a{
+    max-height: 30px;
+    text-align: center;
+font-size: 10px;
+vertical-align: middle;
+font-weight: bold;
+color: white;
+background-color: #4a6792;
+border: none;
+font-style: normal;
+}
+.card-text{
+   font-size:  .775em;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.span1{
+    background-color: #0dcaf0;
+    /* height: 20px; */
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    padding: 4px;
+    color: black;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: bolder;
+}
+.name1{
+    color: white;
+    font-size: 14px;
+font-weight: bold;
+    font-style: italic;
+
+    /* font-family: 'Nerko One', cursive; */
+}
+.des{
+    color: white;
+    font-size: 13px;
+
+}
+.close i{
+    
+    color: rgba(255, 255, 255, 0.525);
+    transition: all 0.5s;
+
+}
+
+.close i:hover{
+color: white;
+}
+.show-game{
+    color: white;
+
+    font-style: italic;
+    font-size: 14px;
+}
